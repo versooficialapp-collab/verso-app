@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verso - Convite Oficial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #3b82f6;
+            --bg: #f8fafc;
+        }
+        body { 
+            font-family: 'Segoe UI', system-ui, sans-serif; 
+            background: var(--bg); 
+            display: flex; justify-content: center; align-items: center; 
+            min-height: 100vh; margin: 0;
+        }
+        .card {
+            background: white; width: 90%; max-width: 400px;
+            padding: 40px 20px; border-radius: 30px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            text-align: center; border: 1px solid #e2e8f0;
+        }
+        .icon-box {
+            width: 80px; height: 80px; background: var(--primary);
+            color: white; border-radius: 22px; margin: 0 auto 20px;
+            display: flex; justify-content: center; align-items: center;
+            font-size: 35px; box-shadow: 0 10px 15px rgba(37, 99, 235, 0.3);
+        }
+        h1 { color: #1e293b; font-size: 28px; margin: 10px 0; }
+        p { color: #64748b; font-size: 16px; margin-bottom: 30px; line-height: 1.5; }
+        .btn {
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            background: var(--primary); color: white; text-decoration: none;
+            padding: 18px; border-radius: 16px; font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn:hover { background: var(--secondary); transform: translateY(-2px); }
+        .footer { margin-top: 30px; font-size: 13px; color: #94a3b8; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon-box">
+            <i class="fas fa-paper-plane"></i>
+        </div>
+        <h1>Você foi convidado!</h1>
+        <p>Junte-se ao <strong>Verso Oficial</strong> e organize suas notas de um jeito simples e seguro.</p>
+        
+        <a href="https://t.me/versooficial" class="btn">
+            <i class="fab fa-telegram-plane"></i> Aceitar Convite & Baixar
+        </a>
+
+        <div class="footer">
+            &copy; 2026 Verso Oficial
+        </div>
+    </div>
+</body>
+</html>
